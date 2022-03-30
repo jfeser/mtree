@@ -1,0 +1,9 @@
+(executable
+ (name fuzz_test)
+ (libraries m_tree crowbar core)
+ (modules fuzz_test))
+
+(executable
+ (name bench)
+ (libraries m_tree core core_bench)
+ (modules bench))
